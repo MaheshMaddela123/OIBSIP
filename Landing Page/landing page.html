@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    </head>
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>FoodieShop</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <i class="search-icon fas fa-search"></i>
+        </ul>
+    </nav>
+      <!-- Slideshow -->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="images/pexels-ash-376464.jpg" style="width:100%">
+            <div class="text">Welcome to <br><span>Online FoodShop</span></div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/mediterranean-cuisine-2378758_1920.jpg" style="width:100%">
+            <div class="matter">Welcome to <span>Online FoodShop</span></div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/salad-2068220_1920.jpg" style="width:100%">
+            <div class="text">Welcome to <br><span>Online FoodShop</span></div>
+        </div>
+    </div>
+    <main>
+        <section id="home" class="obj">
+            <h2>Objective</h2>
+            <p class="obj1">platforms is to provide convenient access to a variety of cuisines, allowing customers to browse menus, place orders, and have food delivered to their doorstep efficiently. This enhances accessibility, choice, and convenience, 
+                simplifying the dining experience for users and supporting local eateries</p>
+        </section>
+
+        <section id="menu" class="obj">
+            <h2>Our Menu</h2>
+            <p class="obj1">Welcome to FoodShop! Indulge in our savory selection: Classic Burgers, Crispy Chicken Sandwiches, Garden Fresh Salads, Flavorful Pastas, and Gourmet Pizzas. Satisfy your sweet tooth with Decadent Desserts like Cheesecake and Chocolate Lava Cake. Quench your thirst with Refreshing Beverages and enjoy our warm hospitality. Bon appétit!</p>
+        </section>
+
+        <section id="about" class="obj">
+            <h2>About FoodieShop</h2>
+            <p class="obj1">Experience culinary delight with our Online FoodShop. Browse an array of gourmet cuisines from the comfort of your home. Indulge in flavorsome dishes prepared by top chefs, delivered promptly to your doorstep. Convenient, diverse, and delicious - your ultimate destination for satisfying cravings and exploring culinary wonders.</p>
+        </section>
+    </main>
+    <p class="para"><b>Enter Your Response</b></p>
+    <form>
+        <label for="title">Issue:</label>
+        <input type="text" id="issue" name="title">
+      
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea>
+      
+        <button type="submit">Submit Report</button>
+      </form>
+
+    <footer class="footer">
+        <p>&copy; 2024 Online FoodShop. All rights reserved.</p>
+    </footer>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+    </script>
+</body>
+</html>

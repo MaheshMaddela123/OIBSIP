@@ -1,0 +1,193 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-weight: normal;
+    margin: 0 0 1rem;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color:orange;
+    padding: 0.5rem;
+    padding-left: 10px;
+    color: white;
+
+}
+/* Navigation Styles */
+nav {
+    background-color: #ddd;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    color: #333;
+}
+
+nav a:hover {
+    color: #f00;
+    text-decoration: none;
+}
+
+/* Main Styles */
+main {
+    padding: 2rem;
+}
+
+main section {
+    margin: 2rem 0;
+}
+
+main h2 {
+    color: #f00;
+}
+
+main p:last-child {
+    margin: 0;
+}
+
+/* form */
+.para{
+    margin-left: 50px;
+    color: darkred;
+}
+form {
+  width: 450px;
+  margin:0 0 10px  10px;
+}
+
+label {
+  display: block;
+  border: none;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid black;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text{
+    margin-top: 70px;
+    font-size: 40px;
+    margin-left: 50px;
+    color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 90%;
+    height: 20px;
+    height: 15px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.matter{
+    margin-top: 450px;
+    font-size: 40px;
+    margin-left: 50px;
+    color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.matter > span{
+    color: orange;
+}
+
+.text > span{
+    color: coral;
+}
+
+/* section */
+.obj{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.obj1{
+    margin-top: 25px;
+
+}
+/* footer */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer li {
+    margin: 0 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
